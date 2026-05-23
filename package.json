@@ -2,7 +2,6 @@
   "name": "portfolio-client",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://Nawfal-Ahmed.github.io/Portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
