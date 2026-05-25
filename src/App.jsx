@@ -75,15 +75,15 @@ const EXPERIENCE = [
 const SKILL_CATEGORIES = [
   {
     title: "Machine Learning",
-    skills: ["TensorFlow", "Keras", "Scikit-learn", "Pandas", "NumPy"],
+    skills: ["TensorFlow", "Scikit-learn", "Pandas", "NumPy"],
   },
   {
     title: "Backend Development",
-    skills: ["Python", "Django", "REST APIs", "SQL"],
+    skills: ["Django","Express.js","REST APIs", "SQL" ,"MongoDB"],
   },
   {
     title: "Programming Languages",
-    skills: ["Java", "C/C++"],
+    skills: ["Python","Java", "C/C++"],
   },
   {
     title: "Developer Tools",
