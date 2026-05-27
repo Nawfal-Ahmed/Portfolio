@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background Card -->
+  <rect width="100" height="100" rx="24" fill="url(#grad)" />
+  <!-- Orbiting Circle Line -->
+  <circle cx="50" cy="50" r="40" stroke="url(#neon)" stroke-width="2" fill="none" opacity="0.3" />
+  <!-- Code brackets </> -->
+  <path d="M 32 38 L 18 50 L 32 62" stroke="url(#neon)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)" />
+  <path d="M 68 38 L 82 50 L 68 62" stroke="url(#neon)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)" />
+  <path d="M 58 28 L 42 72" stroke="#ffffff" stroke-width="6.5" stroke-linecap="round" fill="none" />
+  <!-- Glowing Neural Center Node -->
+  <circle cx="50" cy="50" r="5" fill="#00f5d4" filter="url(#glow)" />
+</svg>
