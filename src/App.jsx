@@ -45,7 +45,7 @@ const PROJECTS = [
     color: "#00f5d4",
     icon: "📈",
     github: "https://github.com/Nawfal-Ahmed/Stock_Prediction",
-    live: "https://stock-prediction-q2lt.onrender.com",
+
   },
   {
     title: "IMDB Sentiment Analysis",
